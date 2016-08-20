@@ -12,10 +12,10 @@ const options = {
   mesh: {
     auto: true,
     listen: [
-      {pin: 'role:buddy, cmd:list-contact-teachers', model: 'consume'},
-      {pin: 'role:buddy, cmd:list-classes', model: 'consume'},
-      {pin: 'role:buddy, cmd:list-students', model: 'consume'},
-      {pin: 'role:buddy, cmd:search-students', model: 'consume'}
+      {pin: 'role:buddy, list:contact-teachers', model: 'consume'},
+      {pin: 'role:buddy, list:classes', model: 'consume'},
+      {pin: 'role:buddy, list:students', model: 'consume'},
+      {pin: 'role:buddy, search:students', model: 'consume'}
     ]
   },
   buddyOptions: {
