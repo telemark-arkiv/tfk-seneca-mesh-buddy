@@ -13,7 +13,7 @@ const options = {
     auto: true,
     listen: [
       {pin: 'role:buddy, list:contact-teachers', model: 'consume'},
-      {pin: 'role:buddy, list:classes', model: 'consume'},
+      {pin: 'role:buddy, list:contact-classes', model: 'consume'},
       {pin: 'role:buddy, list:students', model: 'consume'},
       {pin: 'role:buddy, search:students', model: 'consume'},
       {pin: 'role:buddy, get:student', model: 'consume'}
