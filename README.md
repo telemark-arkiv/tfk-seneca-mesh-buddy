@@ -29,6 +29,15 @@ Seneca.act('role: buddy, list: contact-teachers', {studentUserName: 'studentUser
 $ curl -d '{"role": "buddy", "list": "contact-teachers", "studentUserName":"maccyber"}' -v http://localhost:8000/act 
 ```
 
+### ```role: buddy, list: teachers```
+Lists all teachers in Buddy
+```javascript
+Seneca.act('role: buddy, list: teachers', (error, data) => {})
+```
+```sh
+$ curl -d '{"role": "buddy", "list": "teachers"}' -v http://localhost:8000/act 
+```
+
 ### ```role: buddy, list: students```
 Lists all students in a group
 ```javascript
