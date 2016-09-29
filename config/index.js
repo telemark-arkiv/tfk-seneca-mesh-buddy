@@ -1,5 +1,8 @@
 'use strict'
 
+process.env.TFK_SENECA_MESH_BUDDY_JWT_KEY = '... Nothing Lasts But Nothing Is Lost ... Nothing Lasts But Nothing Is Lost'
+process.env.TFK_SENECA_MESH_BUDDY_API_URL = 'https://buddyws.t-fk.no'
+
 const envs = process.env
 
 module.exports = {
