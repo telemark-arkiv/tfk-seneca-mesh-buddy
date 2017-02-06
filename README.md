@@ -1,4 +1,6 @@
 # tfk-seneca-mesh-buddy
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-seneca-mesh-buddy.svg)](https://greenkeeper.io/)
 Microservice for [buddy-minelev-api](https://github.com/telemark/buddy-minelev-api)
 
 ## Messages handled
