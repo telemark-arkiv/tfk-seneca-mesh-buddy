@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "seneca": "3.3.0",
-    "seneca-balance-client": "0.6.0",
+    "seneca-balance-client": "0.6.1",
     "seneca-mesh": "0.10.0",
     "tfk-generate-jwt": "1.0.11",
     "wreck": "12.2.2"
