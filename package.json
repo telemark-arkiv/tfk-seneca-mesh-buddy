@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-buddy",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "description": "Microservice for Budddy",
   "license": "MIT",
   "author": {
@@ -35,7 +35,7 @@
     "tap": "10.3.2"
   },
   "dependencies": {
-    "seneca": "3.4.1",
+    "seneca": "3.3.0",
     "seneca-balance-client": "0.6.1",
     "seneca-mesh": "0.10.0",
     "tfk-generate-jwt": "1.0.11",
