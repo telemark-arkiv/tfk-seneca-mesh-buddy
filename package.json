@@ -39,6 +39,6 @@
     "seneca-balance-client": "0.6.1",
     "seneca-mesh": "0.11.0",
     "tfk-generate-jwt": "1.0.11",
-    "wreck": "12.2.2"
+    "wreck": "12.2.3"
   }
 }
